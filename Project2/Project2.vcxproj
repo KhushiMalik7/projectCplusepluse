@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6fcd7424-102e-45db-a021-62c947099b5d}</ProjectGuid>
+    <RootNamespace>Project2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>ProjectC++</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="100to1.cpp" />
+    <ClCompile Include="Alphabaticalpattern.cpp" />
+    <ClCompile Include="AlphaStarTriangle.cpp" />
+    <ClCompile Include="AP.cpp" />
+    <ClCompile Include="ASCIIvalue.cpp" />
+    <ClCompile Include="basic.cpp" />
+    <ClCompile Include="c++ syntax.cpp" />
+    <ClCompile Include="chardatatype.cpp" />
+    <ClCompile Include="Compositeornot.cpp" />
+    <ClCompile Include="CompositeOrPrime .cpp" />
+    <ClCompile Include="continue.cpp" />
+    <ClCompile Include="CountDigits.cpp" />
+    <ClCompile Include="divisibleby5and3.cpp" />
+    <ClCompile Include="DoWhile.cpp" />
+    <ClCompile Include="evennumberto100.cpp" />
+    <ClCompile Include="even\odd.cpp" />
+    <ClCompile Include="factorial.cpp" />
+    <ClCompile Include="FactorialLoop.cpp" />
+    <ClCompile Include="FactorialOfNth.cpp" />
+    <ClCompile Include="floydTriangle.cpp" />
+    <ClCompile Include="libraryFunctions.cpp" />
+    <ClCompile Include="maxnum1inline.cpp" />
+    <ClCompile Include="NumberSquare.cpp" />
+    <ClCompile Include="numberTriangle.cpp" />
+    <ClCompile Include="OddTriangle.cpp" />
+    <ClCompile Include="oppAlphaTriangle.cpp" />
+    <ClCompile Include="oppTriangle.cpp" />
+    <ClCompile Include="PyramidT.cpp" />
+    <ClCompile Include="ReturnType.cpp" />
+    <ClCompile Include="Samenumberrowpattern.cpp" />
+    <ClCompile Include="Samenuminphaseopp.cpp" />
+    <ClCompile Include="starPluse.cpp" />
+    <ClCompile Include="StarSquaare.cpp" />
+    <ClCompile Include="greaterofthree.cpp" />
+    <ClCompile Include="greaterofthreenested.cpp" />
+    <ClCompile Include="half of integer.cpp" />
+    <ClCompile Include="M2toprintevennumber.cpp" />
+    <ClCompile Include="nthTable.cpp" />
+    <ClCompile Include="parameterandarea.cpp" />
+    <ClCompile Include="price.cpp" />
+    <ClCompile Include="print19table.cpp" />
+    <ClCompile Include="printcounting.cpp" />
+    <ClCompile Include="printsomethingaboutntimes.cpp" />
+    <ClCompile Include="ProductOfDigits.cpp" />
+    <ClCompile Include="Q.cpp" />
+    <ClCompile Include="ReverseofagivenNumber.cpp" />
+    <ClCompile Include="runsomethingaboutmultipletimes.cpp" />
+    <ClCompile Include="StarRactangle.cpp" />
+    <ClCompile Include="StarTriangle.cpp" />
+    <ClCompile Include="starTriangleVerticallyFlipped.cpp" />
+    <ClCompile Include="sum of numbers.cpp" />
+    <ClCompile Include="Sum.cpp" />
+    <ClCompile Include="sum1ton.cpp" />
+    <ClCompile Include="SumofDigits.cpp" />
+    <ClCompile Include="switch.cpp" />
+    <ClCompile Include="switchopp.cpp" />
+    <ClCompile Include="ternaryopp.cpp" />
+    <ClCompile Include="threedigitorNot.cpp" />
+    <ClCompile Include="while.cpp" />
+    <ClCompile Include="ZeroOneTriangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nthTable.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

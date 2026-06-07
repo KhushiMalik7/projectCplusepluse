@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Patterns">
+      <UniqueIdentifier>{5f383245-dda8-4c4c-8afc-5863b5118b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\functions">
+      <UniqueIdentifier>{d73dbdae-7452-4e77-8a43-917a3ed360d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="c++ syntax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sum of numbers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="half of integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chardatatype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="even\odd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="price.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parameterandarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="threedigitorNot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="divisibleby5and3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="greaterofthree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="greaterofthreenested.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ternaryopp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="switchopp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runsomethingaboutmultipletimes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printsomethingaboutntimes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printcounting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="evennumberto100.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M2toprintevennumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="print19table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nthTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="100to1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="factorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Compositeornot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeOrPrime .cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="continue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="while.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoWhile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Q.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CountDigits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SumofDigits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductOfDigits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseofagivenNumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sum1ton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialLoop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialOfNth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ASCIIvalue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StarRactangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="StarSquaare.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberSquare.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="Samenumberrowpattern.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="Alphabaticalpattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StarTriangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaStarTriangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="numberTriangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="oppTriangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="oppAlphaTriangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="Samenuminphaseopp.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="maxnum1inline.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="OddTriangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="floydTriangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroOneTriangle.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="starPluse.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="starTriangleVerticallyFlipped.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidT.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="basic.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Sum.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnType.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="libraryFunctions.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nthTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
