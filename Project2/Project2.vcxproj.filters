@@ -19,6 +19,9 @@
     <Filter Include="Source Files\functions">
       <UniqueIdentifier>{d73dbdae-7452-4e77-8a43-917a3ed360d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Pointers">
+      <UniqueIdentifier>{a03231f3-5363-44ac-846e-3e3d3dc1107c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="c++ syntax.cpp">
@@ -200,6 +203,30 @@
     </ClCompile>
     <ClCompile Include="libraryFunctions.cpp">
       <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Combination.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutation.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="PascalTriangle.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="FullPascalTriangle.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeOfVar.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap2Numbers.cpp">
+      <Filter>Source Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Source Files\Pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapFunction.cpp">
+      <Filter>Source Files\Pointers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

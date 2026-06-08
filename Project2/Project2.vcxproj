@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="100to1.cpp" />
+    <ClCompile Include="Address.cpp" />
     <ClCompile Include="Alphabaticalpattern.cpp" />
     <ClCompile Include="AlphaStarTriangle.cpp" />
     <ClCompile Include="AP.cpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="basic.cpp" />
     <ClCompile Include="c++ syntax.cpp" />
     <ClCompile Include="chardatatype.cpp" />
+    <ClCompile Include="Combination.cpp" />
     <ClCompile Include="Compositeornot.cpp" />
     <ClCompile Include="CompositeOrPrime .cpp" />
     <ClCompile Include="continue.cpp" />
@@ -148,6 +150,7 @@
     <ClCompile Include="FactorialLoop.cpp" />
     <ClCompile Include="FactorialOfNth.cpp" />
     <ClCompile Include="floydTriangle.cpp" />
+    <ClCompile Include="FullPascalTriangle.cpp" />
     <ClCompile Include="libraryFunctions.cpp" />
     <ClCompile Include="maxnum1inline.cpp" />
     <ClCompile Include="NumberSquare.cpp" />
@@ -155,10 +158,13 @@
     <ClCompile Include="OddTriangle.cpp" />
     <ClCompile Include="oppAlphaTriangle.cpp" />
     <ClCompile Include="oppTriangle.cpp" />
+    <ClCompile Include="PascalTriangle.cpp" />
+    <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="PyramidT.cpp" />
     <ClCompile Include="ReturnType.cpp" />
     <ClCompile Include="Samenumberrowpattern.cpp" />
     <ClCompile Include="Samenuminphaseopp.cpp" />
+    <ClCompile Include="ScopeOfVar.cpp" />
     <ClCompile Include="starPluse.cpp" />
     <ClCompile Include="StarSquaare.cpp" />
     <ClCompile Include="greaterofthree.cpp" />
@@ -182,6 +188,8 @@
     <ClCompile Include="Sum.cpp" />
     <ClCompile Include="sum1ton.cpp" />
     <ClCompile Include="SumofDigits.cpp" />
+    <ClCompile Include="Swap2Numbers.cpp" />
+    <ClCompile Include="SwapFunction.cpp" />
     <ClCompile Include="switch.cpp" />
     <ClCompile Include="switchopp.cpp" />
     <ClCompile Include="ternaryopp.cpp" />
