@@ -151,6 +151,7 @@
     <ClCompile Include="FactorialOfNth.cpp" />
     <ClCompile Include="floydTriangle.cpp" />
     <ClCompile Include="FullPascalTriangle.cpp" />
+    <ClCompile Include="HollowPattern.cpp" />
     <ClCompile Include="libraryFunctions.cpp" />
     <ClCompile Include="maxnum1inline.cpp" />
     <ClCompile Include="NumberSquare.cpp" />

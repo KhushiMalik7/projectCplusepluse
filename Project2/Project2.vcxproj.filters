@@ -228,6 +228,9 @@
     <ClCompile Include="SwapFunction.cpp">
       <Filter>Source Files\Pointers</Filter>
     </ClCompile>
+    <ClCompile Include="HollowPattern.cpp">
+      <Filter>Patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="nthTable.h">
