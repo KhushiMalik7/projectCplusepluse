@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Pointers">
       <UniqueIdentifier>{a03231f3-5363-44ac-846e-3e3d3dc1107c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Recursion">
+      <UniqueIdentifier>{1e9b1df3-709c-463b-bf15-6c7ba4d49c48}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="c++ syntax.cpp">
@@ -230,6 +233,24 @@
     </ClCompile>
     <ClCompile Include="HollowPattern.cpp">
       <Filter>Patterns</Filter>
+    </ClCompile>
+    <ClCompile Include="functionCallingItself.cpp">
+      <Filter>Source Files\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="printNto1.cpp">
+      <Filter>Source Files\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="print1toN.cpp">
+      <Filter>Source Files\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="print1toNinParameterForm.cpp">
+      <Filter>Source Files\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="print1toNwithoutusingextraParameter.cpp">
+      <Filter>Source Files\Recursion</Filter>
+    </ClCompile>
+    <ClCompile Include="print1toNParameterised.cpp">
+      <Filter>Source Files\Recursion</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

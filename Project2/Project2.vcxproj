@@ -151,6 +151,7 @@
     <ClCompile Include="FactorialOfNth.cpp" />
     <ClCompile Include="floydTriangle.cpp" />
     <ClCompile Include="FullPascalTriangle.cpp" />
+    <ClCompile Include="functionCallingItself.cpp" />
     <ClCompile Include="HollowPattern.cpp" />
     <ClCompile Include="libraryFunctions.cpp" />
     <ClCompile Include="maxnum1inline.cpp" />
@@ -161,6 +162,11 @@
     <ClCompile Include="oppTriangle.cpp" />
     <ClCompile Include="PascalTriangle.cpp" />
     <ClCompile Include="Permutation.cpp" />
+    <ClCompile Include="print1toN.cpp" />
+    <ClCompile Include="print1toNinParameterForm.cpp" />
+    <ClCompile Include="print1toNParameterised.cpp" />
+    <ClCompile Include="print1toNwithoutusingextraParameter.cpp" />
+    <ClCompile Include="printNto1.cpp" />
     <ClCompile Include="PyramidT.cpp" />
     <ClCompile Include="ReturnType.cpp" />
     <ClCompile Include="Samenumberrowpattern.cpp" />
